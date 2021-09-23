@@ -1,0 +1,23 @@
+{
+  "name": "spa-js-vanilla",
+  "version": "1.0.0",
+  "description": "A Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode production --config webpack.config.js",
+    "build": "webpack serve --mode development --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.2.6",
+    "html-webpack-plugin": "5.3.1",
+    "style-loader": "2.0.0",
+    "webpack": "5.39.1",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "3.11.2"
+  }
+}
